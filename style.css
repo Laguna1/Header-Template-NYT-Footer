@@ -29,7 +29,7 @@ nav {
     box-sizing: content-box;
 }
 
-.navcontainer > * {
+.navcontainer>* {
     flex: 1;
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@ nav {
     justify-content: center;
 }
 
-.lefthead > button:hover {
+.lefthead>button:hover {
     background-color: lightgray;
 }
 
@@ -52,7 +52,7 @@ leftbtn {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     border-radius: 3px;
     cursor: pointer;
-  /*  white-space: nowrap; */
+    /*  white-space: nowrap; */
     vertical-align: middle;
     background-color: #fff;
     border: 1px solid #c03b3b;
@@ -65,14 +65,15 @@ leftbtn {
     display: none;
 }
 
-.lefthead > button {
+.lefthead>button {
     background-color: white;
     border: none;
     cursor: pointer;
     margin-right: 10px;
 }
+
 #space .space1 {
-text-decoration: none;
+    text-decoration: none;
     color: black;
     cursor: pointer;
     font-weight: bold;
@@ -81,7 +82,7 @@ text-decoration: none;
 .btn {
     border-radius: 3px;
     cursor: pointer;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
     vertical-align: middle;
     background-color: #567b95;
     border: 1px solid #326891;
@@ -97,7 +98,7 @@ section {
     border: 1px solid black;
     margin: auto 0;
     padding-top: 2em;
-	display: block;
+    display: block;
 }
 
 article {
@@ -109,7 +110,7 @@ article {
 }
 
 footer {
-    background-color: #2e8b57;
+    background-color: #fff;
     border: 1px solid green;
 }
 
@@ -123,13 +124,56 @@ footer {
     padding-bottom: 2em;
 }
 
+.f1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.f1col1,
+.f1col2,
+.f1col3,
+.f1col4,
+.f1col5,
+.f1col6 {
+    display: flex;
+    flex-direction: column;
+}
+
 .f3 {
     position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 2em;
-        background-color: red;
-        color: white;
-        text-align: center;
-     }
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.flinks2{
+	list-style-type: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  
+  .flinks2 li{
+	display: inline-block;
+	font-size: .90em;
+	color: #777777;
+  }
+  
+  .b2{
+	color: #777777;
+	font-weight: bold;
+  }
+  
+  .b2:hover{
+	text-decoration: underline;
+	background: none;
+	color: #039BE5;
+  }
+  
+  
