@@ -7,7 +7,6 @@ header {
     position: fixed;
     width: 100%;
     height: 2em;
-    background-color: #00ffff;
     border: 1px solid black;
 }
 
@@ -47,7 +46,7 @@ nav {
     background-color: lightgray;
 }
 
-leftbtn {
+.leftbtn {
     margin-right: 1em;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     border-radius: 3px;
@@ -111,18 +110,14 @@ article {
 
 footer {
     background-color: #fff;
-    border: 1px solid green;
 }
 
 .f1,
 .f2,
 .f3 {
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
-.f2 {
-    padding-bottom: 2em;
-}
 
 .f1 {
     display: flex;
@@ -130,6 +125,46 @@ footer {
     justify-content: space-around;
 
 }
+
+.f2 {
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.f3 {
+    height: 2em;
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 999;
+    bottom: 0;
+    border-top: 1px solid black;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 0.68em;
+}
+
+.f3right {
+    position: absolute;
+    top: 12px;
+    right: 5em;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #333;
+    font-family: nyt-franklin;
+}
+
+.f3center {
+    width: 50%;
+    height: auto;
+    margin: 0.6em auto;
+    color: #333;
+    font-family: nyt-franklin;
+}
+
+
 
 .f1col1,
 .f1col2,
@@ -141,39 +176,34 @@ footer {
     flex-direction: column;
 }
 
-.f3 {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2em;
-    background-color: red;
-    color: white;
-    text-align: center;
+
+.flinks2 {
+    list-style-type: none;
+    border: none;
+    margin: 12px 0;
+    padding: 0;
+    font-size: 11px;
+    text-transform: capitalize;
+
 }
-.flinks2{
-	list-style-type: none;
-	border: none;
-	margin: 0;
-	padding: 0;
-  }
-  
-  
-  .flinks2 li{
-	display: inline-block;
-	font-size: .90em;
-	color: #777777;
-  }
-  
-  .b2{
-	color: #777777;
-	font-weight: bold;
-  }
-  
-  .b2:hover{
-	text-decoration: underline;
-	background: none;
-	color: #039BE5;
-  }
-  
-  
+
+.flinks2 li {
+    display: inline-block;
+    font-size: 0.90em;
+    padding-right: 0.90em;
+    margin: 0 0 15px;
+    color: #777777;
+}
+
+.b2 {
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    text-decoration: none;
+}
+
+.b2:hover {
+    text-decoration: underline;
+    background: none;
+    color: #777777;
+}
