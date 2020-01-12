@@ -9,7 +9,7 @@ Prepare to build clone New York Times page
 
 ### Live Demo  
 
- [New York Times](https://laguna1.github.io/Template-NYT/)
+ [New York Times](https://laguna1.github.io/Header-Template-NYT-Footer/)
 ***
 
 
