@@ -1,4 +1,4 @@
-# Template NYTIMES
+# Header and footer New York Times (Project Positioning & Floating)
 
 Prepare to build clone New York Times page
 ## BUILT WITH
